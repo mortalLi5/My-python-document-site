@@ -56,7 +56,6 @@ nav:
       - 基础语法: python-basics.md
       - 实用技巧: python-tips.md
   - 常见问题: faq.md
-
 extra:
   social:
     - icon: fontawesome/brands/github
