@@ -1,0 +1,65 @@
+site_name: 我的 Python 学习笔记
+site_description: 记录 Python 学习过程中的知识点、技巧和心得
+site_author: mortalLi5
+site_url: https://mortalLi5.github.io/My-python-document-site
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - 首页: index.md
+  - Python 基础:
+      - 基础语法: python-basics.md
+      - 实用技巧: python-tips.md
+  - 常见问题: faq.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/mortalLi5
+
+copyright: Copyright &copy; 2026 mortalLi5
