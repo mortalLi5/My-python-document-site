@@ -1,6 +1,6 @@
-# 我的 Python 学习笔记
+# Susu的 Python 学习笔记
 
-欢迎来到我的 Python 学习笔记站。这里记录了我学习 Python 过程中整理的知识点、代码示例和踩坑经验。
+欢迎来到我的 Python 学习笔记站。这里记录了我从零开始学习python的所有内容，包括知识点的总结，还有一些代码的积累、踩坑案例，希望能帮助到你。
 
 ## 本文要点
 
@@ -9,7 +9,7 @@
 - 持续更新中
 
 ## 目录
-
+0. [学习python之前]
 1. [Python 基础语法](python-basics.md)
 2. [Python 实用技巧](python-tips.md)
 3. [常见问题](faq.md)
